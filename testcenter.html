@@ -17,6 +17,114 @@
 
 <body>
 
+    <header class="d-none d-lg-flex position-sticky justify-content-center top-0 z-3 w-100 px-3 py-2"
+        style="backdrop-filter: blur(6px); background-color: rgba(255, 255, 255, 0.5);">
+        <div>
+            <img src="images/logo.png" alt="logo" style="width: 75%;">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary rounded-4 m-2">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="mainNavbarLg">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item rounded-3">
+                            <a class="nav-link" href="/?page=%2F">الرئيسية</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">حول الأكاديمية</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">الأكايميات التابعة</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">|</a></li>
+                        <li class="nav-item rounded-3" style="background-color: #4931af;"><a class="nav-link active text-white rounded-4 px-3" href="testcenter.html">مركز الاختبارات</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">الشراكات</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">الاعتمادات</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">|</a></li>
+                    </ul>
+
+                    <div class="d-flex align-items-center gap-2">
+                        <form method="post" action="">
+
+                            <button type="submit" class="btn"
+                                style="background-color: #e3d8ff; color: #4931af;">En</button>
+                        </form>
+
+                        <a href="" class="btn text-light d-flex align-items-center gap-1"
+                            style="background-color: #4931af;">
+                            تسجيل الدخول
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- md-screen-navbar -->
+    <header
+        class="d-none d-md-flex d-lg-none justify-content-between align-items-center  position-sticky top-0 z-3 w-100 d-none d-md-flex "
+        style="backdrop-filter: blur(6px);">
+        <div>
+            <img src="images\logo.png" alt="logo" style="width: 90%;">
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light bg-body-tertiary rounded-4 m-2">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item " >
+                            <a class="nav-link ">الرئيسية</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="about.html">حول <br> الأكاديمية</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="">الأكايميات <br> التابعة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">|</a>
+                        </li>
+
+                        <li class="nav-item text-center rounded-3" style="background-color: #4931af; height: 6vh;">
+                            <a class="nav-link active text-white rounded-4" href="testcenter.html">مركز <br> الاختبارات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">الشراكات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">الاعتمادات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">|</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex align-items-center gap-2">
+                        <form method="post" action="">
+
+                            <button type="submit" style="background-color: #e3d8ff; color: #4931af;"
+                                class="btn ">En</button>
+                        </form>
+
+                        <a href="" style="background-color: #4931af; width: 100%;"
+                            class="btn d-flex align-items-center gap-1 text-light">
+                            تسجيل الدخول
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- sm-screen-navbar -->
+    <header class="d-flex d-md-none justify-content-between align-items-center m-4">
+        <img src="images\logo.png" alt="logo" style="width: 35%;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
     <section class="container my-5">
         <div class="container my-5">
             <div class="row bg-success bg-opacity-25 rounded-3 align-items-center p-4">
@@ -48,7 +156,7 @@
                     <div class="card-body d-flex flex-column align-items-center position-relative cardSize">
                         <h5 class="card-title">الذكاء الاصطناعي</h5>
                         <div class="position-absolute bottom-0 start-0">
-                            <img src="https://tuwaiq.edu.sa/img/ai.png" class="img-fluid mb-3" width="90%">
+                            <img src="https://tuwaiq.edu.sa/img/ai.png" class="img-fluid" width="90%">
                         </div>
                     </div>
                 </div>
@@ -59,7 +167,7 @@
                     <div class="card-body d-flex flex-column align-items-center position-relative cardSize">
                         <h5 class="card-title">تقنية المعلومات</h5>
                         <div class="position-absolute bottom-0 start-0">
-                            <img src="https://tuwaiq.edu.sa/img/it.png" class="img-fluid mb-3" width="90%">
+                            <img src="https://tuwaiq.edu.sa/img/it.png" class="img-fluid" width="90%">
                         </div>
 
                     </div>
@@ -71,7 +179,7 @@
                     <div class="card-body d-flex flex-column align-items-center position-relative cardSize">
                         <h5 class="card-title">الأمن السيبراني</h5>
                         <div class="position-absolute bottom-0 start-0">
-                            <img src="https://tuwaiq.edu.sa/img/sc.png" class="img-fluid mb-3" width="90%">
+                            <img src="https://tuwaiq.edu.sa/img/sc.png" class="img-fluid" width="90%">
                         </div>
                     </div>
                 </div>
@@ -83,7 +191,7 @@
                         <h5 class="card-title">تحليل وإدارة البيانات</h5>
 
                         <div class="position-absolute bottom-0 start-0">
-                            <img src="https://tuwaiq.edu.sa/img/da.png" class="img-fluid mb-3" width="90%">
+                            <img src="https://tuwaiq.edu.sa/img/da.png" class="img-fluid" width="90%">
                         </div>
                     </div>
                 </div>
@@ -94,7 +202,7 @@
                     <div class="card-body d-flex flex-column align-items-center position-relative cardSize">
                         <h5 class="card-title">الحوسبة السحابية</h5>
                         <div class="position-absolute bottom-0 start-0">
-                            <img src="https://tuwaiq.edu.sa/img/cloud.png" class="img-fluid mb-3" width="90%">
+                            <img src="https://tuwaiq.edu.sa/img/cloud.png" class="img-fluid" width="90%">
                         </div>
                     </div>
                 </div>
@@ -105,7 +213,7 @@
                     <div class="card-body d-flex flex-column align-items-center position-relative cardSize">
                         <h5 class="card-title">إدارة المشاريع</h5>
                         <div class="position-absolute bottom-0 start-0">
-                            <img src="https://tuwaiq.edu.sa/img/pm.png" class="img-fluid mb-3" width="90%">
+                            <img src="https://tuwaiq.edu.sa/img/pm.png" class="img-fluid" width="100%">
                         </div>
                     </div>
                 </div>
@@ -174,5 +282,134 @@
             </div>
         </div>
     </div>
+
+    <!-- footer -->
+    <div style="background-color: #DBD3F9; " class="rounded-4 mt-5 p-4 d-none d-lg-block">
+        <div class="d-flex justify-content-between align-items-start flex-wrap">
+
+            <div>
+                <img src="images/logo.png" alt="logo">
+            </div>
+
+            <div class="d-flex gap-5 flex-wrap text-start" style="color:#6438dd;">
+                <div>
+                    <h6>شارك كمدرب</h6>
+                    <h6>حول الأكاديمية</h6>
+                </div>
+                <div>
+                    <h6>سياسة الخصوصية</h6>
+                    <h6>الشروط و الأحكام</h6>
+                </div>
+            </div>
+
+        </div>
+        <hr class="my-4">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+
+            <div>
+                <h6 style="color:#6438dd;" class="mb-0 fs-6">© 2025 أكاديمية طويق. جميع الحقوق محفوظة.</h6>
+            </div>
+
+            <!-- icon-conatct -->
+            <div class="d-flex gap-3 w-25">
+                <a href="https://www.linkedin.com/school/tuwaiqacademy/posts/?feedView=all" target="_blank"
+                    rel="noopener noreferrer" class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-linkedin-in text-light fs-5"></i>
+                </a>
+
+                <a href="https://www.snapchat.com/add/tuwaiqacademy" target="_blank" rel="noopener noreferrer"
+                    class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-snapchat text-light fs-5"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@TuwaiqAcademy_" target="_blank" rel="noopener noreferrer"
+                    class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-youtube text-light fs-5"></i>
+                </a>
+
+                <a href="https://x.com/TuwaiqAcademy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                    target="_blank" rel="noopener noreferrer"
+                    class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-x-twitter text-light fs-5"></i>
+                </a>
+
+                <a href="https://discord.com/channels/964555901891649636/964570574133297172" target="_blank"
+                    rel="noopener noreferrer" class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-discord text-light fs-5"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <!-- sm-screen -->
+    <div class="d-flex d-lg-none flex-column rounded-4 text-white mx-4 justify-content-center align-items-center w-100">
+
+        <div style="background-color: #DBD3F9;" class="w-100 rounded-4 mt-5 p-4 d-block d-lg-none text-center">
+            <div class="mb-3">
+                <img src="images/logo.png" alt="logo" class="img-fluid" style="max-width: 120px; ">
+            </div>
+
+            <div class="d-flex justify-content-around mb-3" style="color:#6438dd;">
+                <div>
+                    <h6>شارك كمدرب</h6>
+                    <h6>حول الأكاديمية</h6>
+                </div>
+                <div>
+                    <h6>سياسة الخصوصية</h6>
+                    <h6>الشروط و الأحكام</h6>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="d-flex justify-content-center gap-2 flex-wrap mb-2">
+                <a href="https://www.linkedin.com/school/tuwaiqacademy/posts/?feedView=all" target="_blank"
+                    rel="noopener noreferrer" class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-linkedin-in text-light fs-5"></i>
+                </a>
+
+                <a href="https://www.snapchat.com/add/tuwaiqacademy" target="_blank" rel="noopener noreferrer"
+                    class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-snapchat text-light fs-5"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@TuwaiqAcademy_" target="_blank" rel="noopener noreferrer"
+                    class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-youtube text-light fs-5"></i>
+                </a>
+
+                <a href="https://x.com/TuwaiqAcademy" target="_blank" rel="noopener noreferrer"
+                    class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-x-twitter text-light fs-5"></i>
+                </a>
+
+                <a href="https://discord.com/channels/964555901891649636/964570574133297172" target="_blank"
+                    rel="noopener noreferrer" class="btn rounded-4 d-flex align-items-center justify-content-center"
+                    style="background-color: #4931af; width: 40px; height: 40px;">
+                    <i class="fa-brands fa-discord text-light fs-5"></i>
+                </a>
+            </div>
+
+            <div class="mb-3">
+                <h6 style="color:#6438dd;" class="mb-0 fs-6">© 2025 أكاديمية طويق. جميع الحقوق محفوظة.</h6>
+            </div>
+
+        </div>
+    </div>
+
+
 </body>
+
 </html>
